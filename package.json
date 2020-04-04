@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "name": "card-decks",
+  "version": "1.0.0",
+  "description": "A customizable module that handles card decks.\r ## Links:\r * Manifest: https://raw.githubusercontent.com/michaelkimball/card-decks/master/module.json\r * Direct Link: TBD",
+  "scripts": {
+    "build": "webpack",
+    "install-dev": "npm install typescript ts-loader webpack webpack-cli gitlab:foundry-projects/foundry-pc/foundry-pc-types --save-dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelkimball/card-decks.git"
+  },
+  "author": "Michael Kimball",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelkimball/card-decks/issues"
+  },
+  "homepage": "https://github.com/michaelkimball/card-decks#readme",
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.1.1",
+    "foundry-pc-types": "gitlab:foundry-projects/foundry-pc/foundry-pc-types",
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
