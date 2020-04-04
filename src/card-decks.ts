@@ -27,7 +27,7 @@
 /* Initialize module					*/
 /* ------------------------------------ */
 Hooks.once('init', async function () {
-    
+    CONFIG.ui.decks = DeckDirectory;
 });
 /* ------------------------------------ */
 /* Setup module							*/

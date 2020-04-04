@@ -20,10 +20,11 @@
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
     "copy-webpack-plugin": "^5.1.1",
-    "foundry-pc-types": "gitlab:foundry-projects/foundry-pc/foundry-pc-types",
+    "foundry-pc-types": "gitlab:michaelkimball/foundry-pc-types",
     "ts-loader": "^6.2.2",
     "typescript": "^3.8.3",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11"
-  }
+  },
+  "dependencies": {}
 }
