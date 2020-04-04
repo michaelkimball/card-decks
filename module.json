@@ -6,7 +6,7 @@
     "minimumCoreVersion": "0.5.1",
     "author": "Michael Kimball [Orthius#7330]",
     "url": "https://github.com/michaelkimball/card-decks",
-    "manifest": "",
+    "manifest": "https://raw.githubusercontent.com/michaelkimball/card-decks/master/module.json",
     "download": "",
     "scripts": [],
     "styles": [],

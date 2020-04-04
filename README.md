@@ -1,7 +1,7 @@
 # card-decks
 A customizable module that handles card decks.
 ## Links:
-* Manifest: TBD
+* Manifest: https://raw.githubusercontent.com/michaelkimball/card-decks/master/module.json
 * Direct Link: TBD
 
 ## Features:
