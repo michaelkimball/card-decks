@@ -1,6 +1,7 @@
 const path = require('path');
 const fs = require('fs');
 const CopyPlugin = require('copy-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 let config = JSON.parse(fs.readFileSync('./foundryconfig.json'));
 let name = JSON.parse(fs.readFileSync('./module.json')).name;
@@ -29,6 +30,7 @@ module.exports = {
     extensions: [ '.tsx', '.ts', '.js' ],
   },
   plugins: [
+    new CleanWebpackPlugin(),
     new CopyPlugin([
       { from: 'module.json', to: '' }
     ]),
