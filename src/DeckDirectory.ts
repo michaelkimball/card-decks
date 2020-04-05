@@ -1,4 +1,6 @@
-class DeckDirectory extends SidebarDirectory {
+import { Deck } from './Deck';
+import { CardGame } from './CardGame';
+export class DeckDirectory extends SidebarDirectory {
     static get entity() {
         return "Deck";
     }

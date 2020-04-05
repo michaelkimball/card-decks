@@ -1,3 +1,4 @@
-class Deck extends Entity {
+import { DeckData } from 'DeckData';
+export class Deck extends Entity {
     data: DeckData;
 }

@@ -1,4 +1,4 @@
-class DeckData implements BaseEntityData{
+export class DeckData implements BaseEntityData{
     name: string;
 	type: string;
     flags: any;

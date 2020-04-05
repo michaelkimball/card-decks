@@ -17,6 +17,7 @@ if (config.dataPath) {
 
 module.exports = {
   entry: ['./src/card-decks.ts'],
+  mode: 'development',
   module: {
     rules: [
       {
@@ -37,6 +38,7 @@ module.exports = {
   ],
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, linkDir),
+    path: path.resolve(__dirname, linkDir)
+    // path: path.resolve(__dirname, '.\\dist\\')
   },
 };
